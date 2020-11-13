@@ -37,6 +37,15 @@ html {
   font-size: 1.2rem;
  }
 
+ &:hover {
+  @include mq(xl) {
+   background-color: #000;
+   color: white;
+   transition: 0.4s;
+   font-weight: 900;
+  }
+ }
+
  &--article {
   display: block;
   margin: 10px auto 0 auto;

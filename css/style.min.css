@@ -43,6 +43,16 @@ html {
   }
 }
 
+@media (min-width: 1200px) {
+  .btn:hover {
+    background-color: #000;
+    color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-weight: 900;
+  }
+}
+
 .btn--article {
   display: block;
   margin: 10px auto 0 auto;

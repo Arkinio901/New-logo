@@ -1,0 +1,16 @@
+.footer {
+ width: 100%;
+ background-color: #000;
+ font-size: 1.4rem;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+
+ @include mq(lg) {
+  font-size: 1.6rem;
+ }
+
+ @include mq(xl) {
+  font-size: 2rem;
+ }
+}

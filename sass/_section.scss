@@ -1,0 +1,10 @@
+.main-article {
+ display: flex;
+ flex-wrap: wrap;
+
+ &__intro {
+  text-align: center;
+  font-size: 3rem;
+
+ }
+}

@@ -1,10 +1,67 @@
+.article {
+
+
+ &__image {
+
+  width: 90%;
+  display: block;
+  margin: 20px auto 0 auto;
+
+
+ }
+
+ &__title {
+  text-align: center;
+  margin: 10px 0;
+
+ }
+
+ &__description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 10px;
+  flex-basis: 100%;
+ }
+}
+
+
 .main-article {
  display: flex;
  flex-wrap: wrap;
+ justify-content: space-around;
+ margin-bottom: 20px;
 
  &__intro {
   text-align: center;
-  font-size: 3rem;
+  margin: 20px auto 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  flex-basis: 100%;
 
+  @include mq(xl) {
+   font-size: 4rem;
+  }
+
+ }
+
+ .article {
+
+  @include mq(md) {
+   flex-basis: 40%;
+  }
+
+  @include mq(xl) {
+   flex-basis: 33%;
+  }
+
+  &__title {
+   font-size: 2.5rem;
+   font-family: 'Josefin Sans', sans-serif;
+  }
+
+  &__description {
+   font-size: 1.5rem;
+  }
  }
 }

@@ -74,21 +74,8 @@
 
  }
 
- .btn {
-  display: block;
-  margin: 10px auto;
-  padding: 5px 10px;
-  font-size: 1.3rem;
-  text-transform: uppercase;
+ //.btn wycięte poza header
 
-  @include mq(sm) {
-   display: inline-block;
-   margin: 0;
-   padding: 5px;
-   font-size: 1.2rem;
-  }
-
- }
 
 
 

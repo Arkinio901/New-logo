@@ -29,7 +29,9 @@
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
- margin-bottom: 20px;
+ padding-bottom: 20px;
+ background-color: $main-color;
+ border-bottom: 2px solid gray;
 
  &__intro {
   text-align: center;
